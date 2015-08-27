@@ -5,6 +5,9 @@ This is the simplest possible example that we could come up with that
 uses the [Walmart API wrapper](https://www.npmjs.com/package/walmart). It
 should not be viewed as an example of how we code at Walmart.
 
+This example uses [express](http://expressjs.com/) if you want to use Hapi
+instead [go here](https://github.com/walmartlabs/hapi-example).
+
 ## Install
 
 ```
