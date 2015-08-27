@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Walmart API - Express Test App</title>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+$(function(){
+  $.get("/api/product/10449075",function (data){
+  	$('#product_name').text(data.product.productName);
+  });
+})
+</script>
+</head>
+<body>
+Product Name:
+<div id="product_name"></div>
+</body>
+</html>

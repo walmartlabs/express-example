@@ -1,0 +1,17 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "A crazy simple example of using the Walmart API with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Jack Herrington <jherrington@walmartlabs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-static": "^1.10.0",
+    "walmart": "0.0.2"
+  }
+}
