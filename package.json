@@ -12,6 +12,6 @@
   "dependencies": {
     "express": "^4.13.3",
     "serve-static": "^1.10.0",
-    "walmart": "0.0.2"
+    "walmart": "0.0.4"
   }
 }
